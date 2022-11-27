@@ -10,7 +10,7 @@ int main() {
   printf("\nEnter the second number:");
   scanf("%f",&second);
   
-  printf("Enter an operator \n1 for + \n2 for - \n3 for * \n 4 for /.\n");
+  printf("Enter an operator \n1 for + \n2 for - \n3 for * \n4 for /.\n");
   scanf("%d",&op);
 
   switch (op) {
