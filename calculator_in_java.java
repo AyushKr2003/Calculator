@@ -17,26 +17,12 @@ public class Main {
 
         int op = scan.nextInt();
 
-        switch (op){
-            case 1:
-                System.out.println(num1 +" + " +num2 + " = " + (num1+num2));
-                break;
-
-            case 2:
-                System.out.println(num1 +" - " +num2 + " = " + (num1-num2));
-                break;
-
-            case 3:
-                System.out.println(num1 +" * " +num2 + " = " + (num1*num2));
-                break;
-
-            case 4:
-                System.out.println(num1 +" / " +num2 + " = " + (num1/num2));
-                break;
-
-            default:
-                System.out.println("Invalid Input.");
-                break;
+        switch (op) {
+            case 1 -> System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
+            case 2 -> System.out.println(num1 + " - " + num2 + " = " + (num1 - num2));
+            case 3 -> System.out.println(num1 + " * " + num2 + " = " + (num1 * num2));
+            case 4 -> System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
+            default -> System.out.println("Invalid Input.");
         }
 
     }
